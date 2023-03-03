@@ -30,14 +30,14 @@
 
         </div>
 
-        <div class="main" li v-for="(movie, index) in movies">
+        <div class="main" >
 
           <div class="row">
 
-            <div class="col-md-6">
+            <div class="col-md-6"  v-for="(movie, index) in movies">
                 <div class="thumbnail">
 
-                        <img class="poster img-fluid" :src="movies[index].posters[index]" />
+                        <img class="poster img-fluid" :src="movies[index].posters[movie.posterindex]" />
                         <div class="imageInfo">{{ movies[index].posterIndex }}</div>
 
                         <p class="title">{{ movies[index].title  }} ({{ movies[index].country }})</p>
