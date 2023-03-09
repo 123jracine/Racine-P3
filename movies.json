@@ -68,5 +68,21 @@
             "likes": 874,
             "dislikes": 67,
             "posterindex": 0
+      },
+      {
+            "title": "Mid90s",
+            "iscore": 7.3,
+            "rating": "R",
+            "runtime": 125,
+            "released": [2018, 10, 19],
+            "country": "USA",
+            "posters": ["img/mid90s.jpg"],
+            "imdb": "https://www.imdb.com/title/tt5613484/?ref_=fn_al_tt_1",
+            "website": "https://a24films.com/films/mid90ss",
+            "likes": 874,
+            "dislikes": 67,
+            "posterindex": 0
       }
+
+
 ]
